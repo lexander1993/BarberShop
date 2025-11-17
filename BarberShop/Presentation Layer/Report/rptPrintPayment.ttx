@@ -1,0 +1,14 @@
+ItemName	String	100 
+Quantity	Number 
+Price	Number 
+TotalPrice	Number 
+StylistUserID	String	100
+TransDate	DateTime
+CekIn	DateTime
+CekOut	DateTime
+ItemName	String	100
+BeginningPrice	Number
+SellingPrice	Number
+BeginningPriceNS	Number
+SellingPriceNS	Number
+

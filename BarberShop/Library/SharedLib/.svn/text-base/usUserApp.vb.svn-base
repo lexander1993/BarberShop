@@ -1,0 +1,26 @@
+Namespace UI
+
+    Public Class usUserApp
+
+        Public Shared AppVersion As String = "version 1.0"
+        Public Shared UserID, UserCompanyID As String
+        Public Shared DelegateUserID As String
+
+        Public Shared AccessList As DataTable
+
+        Public Shared ProgramID, ProgramName As String
+
+        Public Shared CompanyID, CompanyName As String
+        Public Shared LocationID, LocationName As String
+        Public Shared DivisionID, DivisionName As String
+        Public Shared SubDivisionID, SubDivisionName As String
+        Public Shared SubCategory2ID As String
+
+        Public Shared ComLocDivSubDivID As Integer
+        Public Shared IsLinkCFM, IsLinkInventory As Boolean
+
+        Public Shared UserEmail As String
+
+    End Class
+
+End Namespace

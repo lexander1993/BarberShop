@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87CFA64B-277F-4A12-AB60-43B7E4EC23F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BarberShop.My.MyApplication</StartupObject>
+    <RootNamespace>BarberShop</RootNamespace>
+    <AssemblyName>BarberShop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BarberShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BarberShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Presentation Layer\Icon\cut.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v10.1.Core, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v10.1.Win, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\Business Layer\Server.vb" />
+    <Compile Include="Library\Business Layer\UserAccess.vb" />
+    <Compile Include="Library\Data Layer\MasterItem.vb" />
+    <Compile Include="Library\Data Layer\PaymentIn.vb" />
+    <Compile Include="Library\Data Layer\InServiceQueue.vb" />
+    <Compile Include="Library\Data Layer\StylistQueue.vb" />
+    <Compile Include="Library\Data Layer\CustQueue.vb" />
+    <Compile Include="Library\Data Layer\MasterUser.vb" />
+    <Compile Include="Library\Data Layer\Report.vb" />
+    <Compile Include="Library\Data Layer\Server.vb" />
+    <Compile Include="Library\Data Layer\SQL.vb" />
+    <Compile Include="Library\Data Layer\UserAccess.vb" />
+    <Compile Include="Library\License Layer\cEncryption.vb" />
+    <Compile Include="Library\License Layer\cHardware.vb" />
+    <Compile Include="Library\SharedLib\Terbilang.vb" />
+    <Compile Include="Library\SharedLib\usDefCons.vb" />
+    <Compile Include="Library\SharedLib\usDefGrid.vb" />
+    <Compile Include="Library\SharedLib\usForm.vb" />
+    <Compile Include="Library\SharedLib\usNumeric.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\SharedLib\usTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\SharedLib\usUserApp.vb" />
+    <Compile Include="Library\SharedLib\usXML.vb" />
+    <Compile Include="Library\Value Object\MasterItem.vb" />
+    <Compile Include="Library\Value Object\DefaultServer.vb" />
+    <Compile Include="Library\Value Object\MasterUser.vb" />
+    <Compile Include="Library\Value Object\PaymentIn.vb" />
+    <Compile Include="Library\Value Object\Server.vb" />
+    <Compile Include="Library\Value Object\ServerList.vb" />
+    <Compile Include="Library\Value Object\User.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstItemDet.designer.vb">
+      <DependentUpon>frmMstItemDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstItemDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstItem.designer.vb">
+      <DependentUpon>frmMstItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmTraQueue.designer.vb">
+      <DependentUpon>frmTraQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmTraQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMain.designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUser.designer.vb">
+      <DependentUpon>frmMstUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserDet.designer.vb">
+      <DependentUpon>frmMstUserDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserGroup.designer.vb">
+      <DependentUpon>frmMstUserGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserGroupDet.designer.vb">
+      <DependentUpon>frmMstUserGroupDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmMstUserGroupDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmSysUserChangePassword.designer.vb">
+      <DependentUpon>frmSysUserChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmSysUserChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmSysUserLogin.designer.vb">
+      <DependentUpon>frmSysUserLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmSysUserLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmTraCashier.designer.vb">
+      <DependentUpon>frmTraCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Form\frmTraCashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\rptProfitSmall.vb">
+      <DependentUpon>rptProfitSmall.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptProfitSmall.designer.vb">
+      <DependentUpon>frmRptProfitSmall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptProfitSmall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptStylistFeeSmall.designer.vb">
+      <DependentUpon>frmRptStylistFeeSmall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptStylistFeeSmall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\rptStylistFeeSmall.vb">
+      <DependentUpon>rptStylistFeeSmall.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptProfit.designer.vb">
+      <DependentUpon>frmRptProfit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptProfit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\rptProfit.vb">
+      <DependentUpon>rptProfit.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\rptStylistFee.vb">
+      <DependentUpon>rptStylistFee.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\rptPrintPayment.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPrintPayment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptStylistFee.designer.vb">
+      <DependentUpon>frmRptStylistFee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmRptStylistFee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmSysReport.Designer.vb">
+      <DependentUpon>frmSysReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Report\frmSysReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Library\SharedLib\usTextBox.resx">
+      <DependentUpon>usTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstItemDet.resx">
+      <DependentUpon>frmMstItemDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstItem.resx">
+      <DependentUpon>frmMstItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmTraQueue.resx">
+      <DependentUpon>frmTraQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstUser.resx">
+      <DependentUpon>frmMstUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstUserDet.resx">
+      <DependentUpon>frmMstUserDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstUserGroup.resx">
+      <DependentUpon>frmMstUserGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmMstUserGroupDet.resx">
+      <DependentUpon>frmMstUserGroupDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmSysUserChangePassword.resx">
+      <DependentUpon>frmSysUserChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmSysUserLogin.resx">
+      <DependentUpon>frmSysUserLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Form\frmTraCashier.resx">
+      <DependentUpon>frmTraCashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\rptProfitSmall.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProfitSmall.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\frmRptProfitSmall.resx">
+      <DependentUpon>frmRptProfitSmall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\frmRptStylistFeeSmall.resx">
+      <DependentUpon>frmRptStylistFeeSmall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\rptStylistFeeSmall.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStylistFeeSmall.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\frmRptProfit.resx">
+      <DependentUpon>frmRptProfit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\rptProfit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProfit.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\rptStylistFee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStylistFee.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\rptPrintPayment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPrintPayment.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\frmRptStylistFee.resx">
+      <DependentUpon>frmRptStylistFee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Report\frmSysReport.resx">
+      <DependentUpon>frmSysReport.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Library\SharedLib\.svn\all-wcprops" />
+    <None Include="Library\SharedLib\.svn\entries" />
+    <None Include="Library\SharedLib\.svn\text-base\usDefCons.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usDefGrid.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usForm.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usNumeric.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usTextBox.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usUserApp.vb.svn-base" />
+    <None Include="Library\SharedLib\.svn\text-base\usXML.vb.svn-base" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Presentation Layer\Icon\.svn\all-wcprops" />
+    <None Include="Presentation Layer\Icon\.svn\entries" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Add.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Alt.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Approved.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Button_OK.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Cancel.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Close.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\CPS.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Delete.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Detail.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Edit.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Email.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Get.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\History.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Hold.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Invoice.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Misc.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\New.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Option.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Print.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Refresh.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Reject.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Save.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Sub.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Submit.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Supplier.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Thumbs.db.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Track.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\prop-base\Unapproved.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Add.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Alt.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Approved.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Button_OK.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Cancel.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Close.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\CPS.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Delete.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Detail.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Edit.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Email.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Get.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\History.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Hold.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Invoice.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Misc.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\New.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Option.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Print.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Refresh.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Reject.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Save.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Sub.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Submit.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Supplier.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Thumbs.db.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Track.ico.svn-base" />
+    <None Include="Presentation Layer\Icon\.svn\text-base\Unapproved.ico.svn-base" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentation Layer\Icon\Add.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Alt.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Approved.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Button_OK.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Cancel.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Close.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\CPS.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Delete.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\delete.jpg" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Detail.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Edit.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Email.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Get.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\History.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Hold.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Invoice.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\List.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Misc.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\New.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\open.jpg" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Option.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Print.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Refresh.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Reject.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Save.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\save.jpg" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Sub.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Submit.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Supplier.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Track.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\Unapproved.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Library\SharedLib\.svn\prop-base\" />
+    <Folder Include="Library\SharedLib\.svn\props\" />
+    <Folder Include="Library\SharedLib\.svn\tmp\prop-base\" />
+    <Folder Include="Library\SharedLib\.svn\tmp\props\" />
+    <Folder Include="Library\SharedLib\.svn\tmp\text-base\" />
+    <Folder Include="Presentation Layer\Icon\.svn\props\" />
+    <Folder Include="Presentation Layer\Icon\.svn\tmp\prop-base\" />
+    <Folder Include="Presentation Layer\Icon\.svn\tmp\props\" />
+    <Folder Include="Presentation Layer\Icon\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentation Layer\Icon\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Presentation Layer\Icon\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentation Layer\Icon\cut.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\refresh2.ico" />
+    <EmbeddedResource Include="Presentation Layer\Icon\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Presentation Layer\Icon\barber1.jpg" />
+    <None Include="Presentation Layer\Icon\search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

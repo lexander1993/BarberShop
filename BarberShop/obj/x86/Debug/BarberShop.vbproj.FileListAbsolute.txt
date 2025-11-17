@@ -1,0 +1,111 @@
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.exe
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbprojResolveAssemblyReference.cache
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.usTextBox.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.Resources.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraQueue.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMain.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUser.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserDet.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroup.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroupDet.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserChangePassword.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserLogin.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraCashier.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptAdminFee.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysReport.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.GenerateResource.Cache
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe.licenses
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.xml
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.pdb
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.pdb
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.xml
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptStylistFee.resources
+C:\Project\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfit.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.xml
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.pdb
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.exe
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.pdb
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\bin\Debug\BarberShop.xml
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbprojResolveAssemblyReference.cache
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.usTextBox.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.Resources.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraQueue.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMain.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUser.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserDet.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroup.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroupDet.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserChangePassword.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserLogin.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraCashier.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfit.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptStylistFee.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysReport.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.GenerateResource.Cache
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe.licenses
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstItem.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstItemDet.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptStylistFeeSmall.resources
+D:\Backup\20140831 INVENTORY NEW 2\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfitSmall.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\BarberShop.exe
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\BarberShop.pdb
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\BarberShop.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.AssemblyReference.cache
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.usTextBox.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.Resources.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstItemDet.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstItem.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraQueue.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMain.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUser.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserDet.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroup.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmMstUserGroupDet.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserChangePassword.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysUserLogin.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmTraCashier.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfitSmall.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptStylistFeeSmall.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfit.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptStylistFee.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmSysReport.resources
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.GenerateResource.cache
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe.licenses
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.CoreCompileInputs.cache
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.vbproj.CopyComplete
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.exe
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.pdb
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\BarberShop.exe.config
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraGauges.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraGauges.v24.1.Win.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\CrystalDecisions.Shared.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\log4net.dll
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\bin\Debug\log4net.xml
+C:\Alex VB Project\BarberShop\BarberShop\BarberShop\obj\x86\Debug\BarberShop.frmRptProfitNew.resources
